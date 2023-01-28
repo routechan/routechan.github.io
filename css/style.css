@@ -1,0 +1,200 @@
+.content {
+    background-color: #E3E4CF;
+    max-width: 900px;
+    margin: 0 auto;
+    height: 700px;
+    position: relative;
+    top: 50px;
+    bottom: 0;
+    margin: auto;
+
+
+}
+
+#title {
+    text-align: center;
+    font-family: 'myfont';
+    font-size: 60px;
+    padding: 30px 0;
+}
+
+#mode {
+    text-align: center;
+    padding: 40px 0;
+    font-family: 'myfont';
+}
+
+ul {
+    list-style: none;
+}
+
+.big-bg {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+#home {
+    background-image: url(../images/ZOOM_BG_02_1280.jpg);
+    min-height: 100vh;
+}
+
+@font-face {
+    font-family: 'myfont';
+    src: url('../font/PixelMplus12-Bold.ttf')format('truetype');
+}
+
+@font-face {
+    font-family: 'myfont2';
+    src: url('../font/PixelMplus12-Regular.ttf')format('truetype');
+}
+
+#mode a {
+    background-color: #E3E4CF;
+}
+
+#mode a:hover .hide {
+    display: inline;
+}
+.hide {
+    display: none;
+}
+
+#mode a {
+
+    align-items: center;
+
+
+    height: 60px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 35px;
+}
+
+li {
+    padding: 20px 0;
+}
+
+#home .quize {
+    padding-top: 45px;
+    text-align: center;
+    font-family: 'myfont';
+    text-align: center;
+}
+
+.quize .mondai {
+    font-size: 40px;
+    font-family: 'myfont';
+}
+
+.content .icon {
+    zoom: 1.7;
+    padding-top: 25px;
+}
+
+#home .gazou {
+    text-align: center;
+}
+
+.mondaisuu {
+    font-family: 'myfont';
+    font-size: 30px;
+}
+
+.sentaku {
+    font-family: 'myfont' !important;
+}
+
+
+
+label {
+    border: solid 2px #333;
+    padding: 10px 20px;
+}
+
+.radiobutton:checked + label {
+    background-color: #A1CFC5;
+}
+
+#radio {
+    text-align: center;
+}
+
+
+
+#result {
+    font-family: 'myfont';
+    font-size: 100px;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+#comment {
+    text-align: center;
+    font-family: 'myfont';
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+#return {
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 50px;
+}
+
+#next {
+    padding-top: 40px;
+    font-family: 'myfont2';
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.yesorno {
+    text-align: center;
+    font-family: 'myfont2';
+    font-size: 20px;
+}
+
+
+#kaito .hide2{
+    display: none;
+}
+#kaito .hover:hover .hide2{
+    display: inline;
+}
+
+#kaito{padding-top: 40px;
+    font-family: 'myfont2';
+    font-size: 30px;
+}
+.mediaradio{
+    width:
+}
+.radiobutton {
+    display: none;
+}
+
+.hover{
+    font-size: 30px;
+    font-family: 'myfont2';
+}
+@media screen and (max-width:768px) {
+.wrap{
+    display: flex;
+    flex-wrap: wrap ;
+    margin:0 auto;
+    
+}
+    .rd{
+        width: 50%;}
+   label {
+    border: solid 2px #333;
+    padding: 10px 0px;
+}
+}
+
